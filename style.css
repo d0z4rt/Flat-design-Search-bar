@@ -1,0 +1,201 @@
+/* design by mxcmaxime */
+
+@import url(http://fonts.googleapis.com/css?family=Lato:900);
+
+body, html {
+	background: #BE80FF;
+	height: 100%;
+	width: 100%;
+	min-width: 300px; /* Last responsive width */
+	margin: 0px !important;
+	padding: 0px !important;
+	font-family: 'arial', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 0 !important; /* line-height is edited for each text container */
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	width: 100%;
+	font-size: 36px;
+	font-family: 'Lato', sans-serif;
+	position: absolute;
+	top: 25%;
+}
+
+form {
+	color: #ffffff;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	text-align: center;
+	border: none;
+	border-collapse: collapse;
+	background: #BE80FF;
+	width: 306px;
+	height: 80px;
+	overflow: hidden;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+
+.bar_contener {
+	margin: auto;
+	color: #ffffff;
+	text-align: center;
+	border: 3px solid #ffffff;
+	border-radius: 50px;
+	border-collapse: collapse;
+	background: #BE80FF;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+
+form:hover .bar_contener, form:active .bar_contener, form:focus .bar_contener {
+	width: 300px;
+}
+
+fieldset {
+	position: relative;
+	z-index: 1000;
+	width: 300px;
+	height: 40px;
+	border: none;
+	background: #BE80FF;
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	z-index: 1000;
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	background: #BE80FF;
+	color: #ffffff;
+}
+
+input.bar {
+	z-index: 10000;
+	width: 230px;
+	margin-left: 0px;
+	padding: 0 55px 0 15px;
+}
+
+.send_cont {
+	z-index: 1;
+	display: inline;
+	position: absolute;
+	width: 50px;
+	height: 40px;
+	right: 0;
+	top: 0;
+}
+
+.send_cont:hover {
+	cursor: pointer;
+}
+
+.arrow_part_1 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 10px;
+	margin: auto;
+	background: #ffffff;
+	height: 3px;
+	width: 26px;
+	border-radius: 50px;
+}
+
+.arrow_part_2 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 14px;
+	margin: auto;
+	background: #ffffff;
+	height: 3px;
+	width: 10px;
+	border-radius: 50px;
+	transform: rotate(0deg);
+	-webkit-transition: all 0.5s ease 0.4s;
+	-moz-transition: all 0.5s ease 0.4s;
+	-o-transition: all 0.5s ease 0.4s;
+	transition: all 0.5s ease 0.4s;
+}
+
+form:hover .arrow_part_2 {
+	top: 8px;
+	transform: rotate(-45deg);
+}
+
+.arrow_part_3 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 14px;
+	margin: auto;
+	background: #ffffff;
+	height: 3px;
+	width: 10px;
+	border-radius: 50px;
+	transform: rotate(0deg);
+	-webkit-transition: all 0.5s ease 0.4s;
+	-moz-transition: all 0.5s ease 0.4s;
+	-o-transition: all 0.5s ease 0.4s;
+	transition: all 0.5s ease 0.4s;
+}
+
+form:hover .arrow_part_3 {
+	bottom: 8px;
+	transform: rotate(45deg);
+}
+
+.tail_cont {
+	z-index: 1;
+	position: absolute;
+	bottom: 0px;
+	right: 120px;
+	height: 40px;
+	width: 40px;
+	transform: rotate(45deg);
+}
+
+.tail {
+	z-index: 1;
+	margin-left: 5px;
+	background: #ffffff;
+	height: 4px;
+	width: 30px;
+	border-radius: 50px;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+
+form:hover .tail {
+	margin-left: 15px;
+	width: 0px;
+}
+
+p {
+	position: absolute;
+	bottom: 0;
+}
