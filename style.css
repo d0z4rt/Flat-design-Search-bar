@@ -199,3 +199,11 @@ p {
 	position: absolute;
 	bottom: 0;
 }
+
+.pleft {
+	left: 5px;
+}
+
+.pright {
+	right: 5px;
+}

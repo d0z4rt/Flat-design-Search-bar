@@ -21,6 +21,7 @@
 			</div>
 			<div class="tail_cont"><div class="tail"></div></div>
 		</form>
-		<p>Made from the original design of <a href="https://dribbble.com/shots/2004982-Searching-for-something" target="_blank">Ivan Radovic</a> and developed by <a href="http://mxcmaxime.net" target="_blank">mxcmaxime</a></p>
+		<p class="pleft">Made from the original design of <a href="https://dribbble.com/shots/2004982-Searching-for-something" target="_blank">Ivan Radovic</a> and developed by <a href="http://mxcmaxime.net" target="_blank">mxcmaxime</a></p>
+		<p class="pright"><a href="https://github.com/mxcmaxime/Search-bar">source code</a></p>
 	</body>
 </html>
